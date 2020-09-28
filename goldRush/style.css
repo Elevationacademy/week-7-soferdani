@@ -1,0 +1,28 @@
+#bigPic {
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    background-color: #00ABF5;
+    display: grid;
+    grid-template-rows: 1fr 9fr 1fr;
+    
+}
+
+#mainTitle{
+    background-color: #084D9B;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#gameContainer{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+#startContainer{
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    grid-gap: 1em;
+    margin: 2%;
+}
